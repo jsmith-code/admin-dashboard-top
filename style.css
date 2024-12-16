@@ -75,6 +75,17 @@
     background-color: lightgreen;
 }
 
+.sidebar-logo {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 16px;
+    align-items: center;
+}
+
+.sidebar-logo img {
+    width: 48px;
+}
+
 .sidebar-link-group {
     display: grid;
     grid-template-columns: 1fr;
