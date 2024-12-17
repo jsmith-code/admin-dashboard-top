@@ -66,6 +66,11 @@
 
 .header {
     grid-area: header;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+    padding: 16px;
     background-color: lightblue;
 }
 
