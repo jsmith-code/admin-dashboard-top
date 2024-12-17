@@ -40,6 +40,10 @@
     --blue-alt: hsl(234, 48%, 63%);
 
     --light-blue: hsl(201, 91%, 73%);
+
+    /* Functional Declarations */
+    --sidebar-bg: var(--blue);
+    --sidebar-link: var(--white);
 }
 
 * {
@@ -72,7 +76,13 @@
     grid-auto-rows: min-content;
     gap: 48px;
     padding: 24px;
-    background-color: lightgreen;
+    background-color: var(--sidebar-bg);
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: var(--sidebar-link);
+    font-weight: bold;
 }
 
 .sidebar-logo {
