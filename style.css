@@ -69,6 +69,19 @@
     background-color: lightblue;
 }
 
+.header-search-img,
+.header-notification-img {
+    width: 24px;
+}
+
+.header-profile-img {
+    width: 36px;
+}
+
+.header-welcome-img {
+    width: 64px;
+}
+
 .sidebar {
     grid-area: sidebar;
     display: grid;
