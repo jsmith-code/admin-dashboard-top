@@ -97,6 +97,14 @@
     gap: 4px;
 }
 
+.header-profile {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
 .header-search-img,
 .header-notification-img {
     width: 24px;
