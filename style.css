@@ -74,6 +74,17 @@
     background-color: lightblue;
 }
 
+.header-search {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-search input[type="search"] {
+    padding: 6px 10px;
+}
+
 .header-search-img,
 .header-notification-img {
     width: 24px;
