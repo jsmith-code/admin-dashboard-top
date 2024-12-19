@@ -85,6 +85,18 @@
     padding: 6px 10px;
 }
 
+.header-welcome {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 16px;
+    align-items: center;
+}
+
+.header-welcome-text {
+    display: grid;
+    gap: 4px;
+}
+
 .header-search-img,
 .header-notification-img {
     width: 24px;
