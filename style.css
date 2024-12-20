@@ -47,6 +47,9 @@
 
     --header-bg: var(--white);
     --header-text: var(--black-grey);
+
+    --header-search-bg: var(--light-lavender);
+    --header-search-outline: var(--black-grey);
 }
 
 * {
@@ -87,6 +90,13 @@
 
 .header-search input[type="search"] {
     padding: 6px 10px;
+    border: none;
+    background-color: var(--header-search-bg);
+    border-radius: 15px;
+}
+
+.header-search input[type="search"]:focus {
+    outline: 1px solid var(--header-search-outline);
 }
 
 .header-welcome {
