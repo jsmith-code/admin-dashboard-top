@@ -216,5 +216,28 @@
 
 .main-content {
     grid-area: main-content;
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        'cards announcements'
+        'cards trending';
+    gap: 16px;
+    padding: 16px;
     background-color: lightcoral;
+}
+
+.main-content-cards {
+    grid-area: cards;
+    background-color:honeydew;
+}
+
+.main-content-announcements {
+    grid-area: announcements;
+    background-color: lightgray;
+}
+
+.main-content-trending {
+    grid-area: trending;
+    background-color:aquamarine;
 }
