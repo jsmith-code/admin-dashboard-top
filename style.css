@@ -53,6 +53,10 @@
 
     --header-welcome-text: var(--black-grey);
     --header-welcome-link: var(--black-grey);
+
+    --header-btn-bg: var(--blue);
+    --header-btn-bg-hover: var(--blue-alt);
+    --header-btn-text: var(--white);
 }
 
 * {
@@ -139,6 +143,16 @@
 
 .header-buttons button {
     padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: var(--header-btn-bg);
+    color: var(--header-btn-text);
+}
+
+.header-buttons button:hover {
+    cursor: pointer;
+    background-color: var(--header-btn-bg-hover);
 }
 
 .header-search-img,
