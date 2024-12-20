@@ -44,6 +44,9 @@
     /* Functional Declarations */
     --sidebar-bg: var(--blue);
     --sidebar-link: var(--white);
+
+    --header-bg: var(--white);
+    --header-text: var(--black-grey);
 }
 
 * {
@@ -71,7 +74,8 @@
     grid-template-rows: 1fr 1fr;
     gap: 16px;
     padding: 16px;
-    background-color: lightblue;
+    background-color: var(--header-bg);
+    color: var(--header-text);
 }
 
 .header-search {
