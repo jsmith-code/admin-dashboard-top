@@ -227,9 +227,38 @@
     background-color: lightcoral;
 }
 
+.content-cards-header {
+    grid-area: 1 / 1 / 2 / -1;
+}
+
 .content-cards {
+    padding: 16px;
     grid-area: cards;
     background-color:honeydew;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: min-content;
+    grid-auto-rows: min-content;
+}
+
+.content-card {
+    padding: 16px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 16px;
+    background-color: blanchedalmond;
+}
+
+.content-card-icons {
+    justify-self: end;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 12px;
+}
+
+.content-card-icons img {
+    width: 24px;
 }
 
 .content-announcements {
