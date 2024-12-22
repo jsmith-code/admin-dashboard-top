@@ -67,7 +67,7 @@
 }
 
 .layout-wrapper {
-    min-width: 100vw;
+    min-width: 100%;
     min-height: 100vh;
     display: grid;
     grid-template-columns: 275px 1fr;
