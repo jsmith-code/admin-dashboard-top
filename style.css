@@ -234,7 +234,17 @@
 
 .content-announcements {
     grid-area: announcements;
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    gap: 16px;
     background-color: lightgray;
+}
+
+.content-announcements-wrapper {
+    display: grid;
+    padding: 16px;
+    gap: 16px;
+    background-color: blanchedalmond;
 }
 
 .content-trending {
