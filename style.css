@@ -240,4 +240,25 @@
 .content-trending {
     grid-area: trending;
     background-color:aquamarine;
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    gap: 16px;
+}
+
+.content-trending-container {
+    display: grid;
+    background-color: blanchedalmond;
+    padding: 16px;
+    gap: 16px;
+}
+
+.content-trending-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 16px;
+}
+
+.content-trending-item img {
+    width: 48px;
 }
