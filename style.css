@@ -53,6 +53,15 @@ img {
     height: auto;
 }
 
+/* || GENERAL STYLING */
+
+/* Icon Sizes */
+.icon-sm  { width: 16px; }
+.icon-md  { width: 24px; }
+.icon-lg  { width: 32px; }
+.icon-xl  { width: 48px; }
+.icon-xxl { width: 64px; }
+
 :root {
     /* Palette Declaration */
     --black-grey: hsl(0, 0%, 10%);
@@ -189,19 +198,6 @@ img {
     background-color: var(--header-btn-bg-hover);
 }
 
-.header-search-img,
-.header-notification-img {
-    width: 24px;
-}
-
-.header-profile-img {
-    width: 36px;
-}
-
-.header-welcome-img {
-    width: 64px;
-}
-
 .sidebar {
     grid-area: sidebar;
     display: grid;
@@ -225,10 +221,6 @@ img {
     align-items: center;
 }
 
-.sidebar-logo img {
-    width: 32px;
-}
-
 .sidebar-link-group {
     display: grid;
     grid-template-columns: 1fr;
@@ -241,10 +233,6 @@ img {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 16px;
-}
-
-.sidebar-link img {
- width: 16px;
 }
 
 .content {
@@ -293,10 +281,6 @@ img {
     display: grid;
     grid-auto-flow: column;
     gap: 12px;
-}
-
-.content-card-icons img {
-    width: 24px;
 }
 
 .content-announcements {
@@ -354,8 +338,4 @@ img {
 
 .content-trending-item p {
     color: var(--trending-subtext);
-}
-
-.content-trending-item img {
-    width: 48px;
 }
