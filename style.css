@@ -287,7 +287,7 @@
 
 .content-announcements-wrapper {
     display: grid;
-    padding: 16px;
+    padding: 32px;
     gap: 16px;
     background-color: var(--announcements-bg);
     color: var(--announcements-text);
