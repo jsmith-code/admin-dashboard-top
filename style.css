@@ -232,7 +232,6 @@
 }
 
 .content-cards {
-    padding: 16px;
     grid-area: cards;
     background-color:honeydew;
     display: grid;
