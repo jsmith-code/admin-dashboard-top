@@ -59,6 +59,11 @@
     --header-btn-text: var(--white);
 
     --content-bg: var(--light-lavender);
+    
+    --card-bg: var(--white);
+    --card-border: var(--blue);
+    --card-text:var(--black-grey);
+    --card-subtext: var(--dark-grey);
 }
 
 * {
@@ -247,7 +252,14 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
     gap: 16px;
-    background-color: blanchedalmond;
+    border-left: 8px solid var(--card-border);
+    border-radius: 8px;
+    background-color: var(--card-bg);
+    color: var(--card-text);
+}
+
+.content-card p {
+    color: var(--card-subtext);
 }
 
 .content-card-icons {
