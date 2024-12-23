@@ -55,6 +55,20 @@ img {
 
 /* || GENERAL STYLING */
 
+button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--btn-bg-hover);
+}
+
 /* Icon Sizes */
 .icon-sm  { width: 16px; }
 .icon-md  { width: 24px; }
@@ -88,9 +102,9 @@ img {
     --header-welcome-text: var(--black-grey);
     --header-welcome-link: var(--black-grey);
 
-    --header-btn-bg: var(--blue);
-    --header-btn-bg-hover: var(--blue-alt);
-    --header-btn-text: var(--white);
+    --btn-bg: var(--blue);
+    --btn-bg-hover: var(--blue-alt);
+    --btn-text: var(--white);
 
     --content-bg: var(--light-lavender);
     
@@ -182,20 +196,6 @@ img {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 24px;
-}
-
-.header-buttons button {
-    padding: 8px 16px;
-    border-radius: 20px;
-    border: none;
-    font-weight: bold;
-    background-color: var(--header-btn-bg);
-    color: var(--header-btn-text);
-}
-
-.header-buttons button:hover {
-    cursor: pointer;
-    background-color: var(--header-btn-bg-hover);
 }
 
 .sidebar {
