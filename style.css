@@ -69,6 +69,10 @@
     --announcements-text:var(--black-grey);
     --announcements-subtext: var(--dark-grey);
     --announcements-hr: var(--dark-grey);
+
+    --trending-bg: var(--white);
+    --trending-text:var(--black-grey);
+    --trending-subtext: var(--dark-grey);
 }
 
 * {
@@ -312,9 +316,11 @@
 
 .content-trending-container {
     display: grid;
-    background-color: blanchedalmond;
+    background-color: var(--trending-bg);
+    border-radius: 8px;
     padding: 16px;
     gap: 16px;
+    color: var(--trending-text);
 }
 
 .content-trending-item {
@@ -322,6 +328,15 @@
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 16px;
+}
+
+.content-trending-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.content-trending-item p {
+    color: var(--trending-subtext);
 }
 
 .content-trending-item img {
