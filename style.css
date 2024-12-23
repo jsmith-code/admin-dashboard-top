@@ -76,6 +76,11 @@ button:hover {
 .icon-xl  { width: 48px; }
 .icon-xxl { width: 64px; }
 
+.unstyled-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 :root {
     /* Palette Declaration */
     --black-grey: hsl(0, 0%, 10%);
@@ -177,11 +182,6 @@ button:hover {
     color: var(--header-welcome-text);
 }
 
-.header-welcome-text a {
-    text-decoration: none;
-    color: var(--header-welcome-link);
-}
-
 .header-profile {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -206,10 +206,6 @@ button:hover {
     gap: 48px;
     padding: 24px;
     background-color: var(--sidebar-bg);
-}
-
-.sidebar a {
-    text-decoration: none;
     color: var(--sidebar-link);
     font-weight: bold;
 }
@@ -329,11 +325,6 @@ button:hover {
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 16px;
-}
-
-.content-trending-item a {
-    text-decoration: none;
-    color: inherit;
 }
 
 .content-trending-item p {
