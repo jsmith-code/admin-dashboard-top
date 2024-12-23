@@ -64,6 +64,11 @@
     --card-border: var(--blue);
     --card-text:var(--black-grey);
     --card-subtext: var(--dark-grey);
+
+    --announcements-bg: var(--white);
+    --announcements-text:var(--black-grey);
+    --announcements-subtext: var(--dark-grey);
+    --announcements-hr: var(--dark-grey);
 }
 
 * {
@@ -284,7 +289,18 @@
     display: grid;
     padding: 16px;
     gap: 16px;
-    background-color: blanchedalmond;
+    background-color: var(--announcements-bg);
+    color: var(--announcements-text);
+    border-radius: 8px;
+}
+
+.content-announcements p {
+    color: var(--announcements-subtext);
+}
+
+.content-announcements hr {
+    border: none;
+    border-bottom: 1px solid var(--announcements-hr);
 }
 
 .content-trending {
