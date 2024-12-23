@@ -57,6 +57,8 @@
     --header-btn-bg: var(--blue);
     --header-btn-bg-hover: var(--blue-alt);
     --header-btn-text: var(--white);
+
+    --content-bg: var(--light-lavender);
 }
 
 * {
@@ -224,7 +226,7 @@
         'cards trending';
     gap: 16px;
     padding: 16px;
-    background-color: lightcoral;
+    background-color: var(--content-bg);
 }
 
 .content-cards-header {
@@ -233,7 +235,6 @@
 
 .content-cards {
     grid-area: cards;
-    background-color:honeydew;
     display: grid;
     gap: 16px;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -265,7 +266,6 @@
     display: grid;
     grid-template-rows: min-content 1fr;
     gap: 16px;
-    background-color: lightgray;
 }
 
 .content-announcements-wrapper {
@@ -277,7 +277,6 @@
 
 .content-trending {
     grid-area: trending;
-    background-color:aquamarine;
     display: grid;
     grid-template-rows: min-content 1fr;
     gap: 16px;
