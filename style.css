@@ -200,9 +200,8 @@ button:hover {
 
 .sidebar {
     grid-area: sidebar;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: min-content;
+    display: flex;
+    flex-direction: column;
     gap: 48px;
     padding: 24px;
     background-color: var(--sidebar-bg);
@@ -211,23 +210,20 @@ button:hover {
 }
 
 .sidebar-logo {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
     gap: 16px;
     align-items: center;
 }
 
 .sidebar-item-group {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: min-content;
+    display: flex;
+    flex-direction: column;
     gap: 16px;
 }
 
 .sidebar-item {
+    display: flex;
     align-items: center;
-    display: grid;
-    grid-template-columns: auto 1fr;
     gap: 16px;
 }
 
