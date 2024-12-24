@@ -182,7 +182,7 @@ input[type="search"]:focus {
 
 .header-profile {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     gap: 16px;
     font-weight: 700;
@@ -190,6 +190,7 @@ input[type="search"]:focus {
 
 .header-buttons {
     display: flex;
+    justify-content: end;
     align-items: center;
     gap: 24px;
 }
