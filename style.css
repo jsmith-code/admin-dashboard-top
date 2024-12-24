@@ -291,6 +291,7 @@ button:hover {
 .content-announcements hr {
     border: none;
     border-bottom: 1px solid var(--announcements-hr);
+    width: 100%;
 }
 
 .content-trending {
