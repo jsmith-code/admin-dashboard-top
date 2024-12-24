@@ -144,7 +144,7 @@ button:hover {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 16px;
-    padding: 16px;
+    padding: 16px 48px;
     background-color: var(--header-bg);
     color: var(--header-text);
 }
