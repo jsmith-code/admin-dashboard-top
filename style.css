@@ -209,12 +209,6 @@ button:hover {
     font-weight: bold;
 }
 
-.sidebar-logo {
-    display: flex;
-    gap: 16px;
-    align-items: center;
-}
-
 .sidebar-item-group {
     display: flex;
     flex-direction: column;
