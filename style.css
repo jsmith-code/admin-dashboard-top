@@ -69,6 +69,17 @@ button:hover {
     background-color: var(--btn-bg-hover);
 }
 
+input[type="search"] {
+    padding: 6px 10px;
+    border: none;
+    background-color: var(--search-bg);
+    border-radius: 15px;
+}
+
+input[type="search"]:focus {
+    outline: 1px solid var(--search-outline);
+}
+
 /* Icon Sizes */
 .icon-sm  { width: 16px; }
 .icon-md  { width: 24px; }
@@ -101,8 +112,8 @@ button:hover {
     --header-bg: var(--white);
     --header-text: var(--black-grey);
 
-    --header-search-bg: var(--light-lavender);
-    --header-search-outline: var(--black-grey);
+    --search-bg: var(--light-lavender);
+    --search-outline: var(--black-grey);
 
     --header-welcome-text: var(--black-grey);
 
@@ -154,17 +165,6 @@ button:hover {
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 16px;
-}
-
-.header-search input[type="search"] {
-    padding: 6px 10px;
-    border: none;
-    background-color: var(--header-search-bg);
-    border-radius: 15px;
-}
-
-.header-search input[type="search"]:focus {
-    outline: 1px solid var(--header-search-outline);
 }
 
 .header-welcome {
