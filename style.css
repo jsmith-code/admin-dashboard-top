@@ -168,8 +168,7 @@ input[type="search"]:focus {
 }
 
 .header-welcome {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
     gap: 16px;
     align-items: center;
 }
@@ -182,8 +181,7 @@ input[type="search"]:focus {
 }
 
 .header-profile {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
@@ -191,8 +189,7 @@ input[type="search"]:focus {
 }
 
 .header-buttons {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     align-items: center;
     gap: 24px;
 }
