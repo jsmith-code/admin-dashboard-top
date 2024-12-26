@@ -228,11 +228,7 @@ input[type="search"]:focus {
     background-color: var(--content-bg);
 }
 
-.cards-header {
-    grid-area: 1 / 1 / 2 / -1;
-}
-
-.cards {
+.cards-container {
     grid-area: cards;
     display: grid;
     gap: 16px;
