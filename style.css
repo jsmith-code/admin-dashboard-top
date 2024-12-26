@@ -228,11 +228,11 @@ input[type="search"]:focus {
     background-color: var(--content-bg);
 }
 
-.content-cards-header {
+.cards-header {
     grid-area: 1 / 1 / 2 / -1;
 }
 
-.content-cards {
+.cards {
     grid-area: cards;
     display: grid;
     gap: 16px;
@@ -241,7 +241,7 @@ input[type="search"]:focus {
     grid-auto-rows: min-content;
 }
 
-.content-card {
+.card {
     padding: 16px;
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -252,25 +252,25 @@ input[type="search"]:focus {
     color: var(--card-text);
 }
 
-.content-card p {
+.card p {
     color: var(--card-subtext);
 }
 
-.content-card-icons {
+.card-icons {
     justify-self: end;
     display: grid;
     grid-auto-flow: column;
     gap: 12px;
 }
 
-.content-announcements {
+.announcements {
     grid-area: announcements;
     display: grid;
     grid-template-rows: min-content 1fr;
     gap: 16px;
 }
 
-.content-announcements-wrapper {
+.announcements-wrapper {
     display: grid;
     padding: 32px;
     gap: 16px;
@@ -279,24 +279,24 @@ input[type="search"]:focus {
     border-radius: 8px;
 }
 
-.content-announcements p {
+.announcements p {
     color: var(--announcements-subtext);
 }
 
-.content-announcements hr {
+.announcements hr {
     border: none;
     border-bottom: 1px solid var(--announcements-hr);
     width: 100%;
 }
 
-.content-trending {
+.trending {
     grid-area: trending;
     display: grid;
     grid-template-rows: min-content 1fr;
     gap: 16px;
 }
 
-.content-trending-container {
+.trending-container {
     display: grid;
     background-color: var(--trending-bg);
     border-radius: 8px;
@@ -305,13 +305,13 @@ input[type="search"]:focus {
     color: var(--trending-text);
 }
 
-.content-trending-item {
+.trending-item {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 16px;
 }
 
-.content-trending-item p {
+.trending-item p {
     color: var(--trending-subtext);
 }
