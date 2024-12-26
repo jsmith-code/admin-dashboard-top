@@ -162,7 +162,7 @@ input[type="search"]:focus {
 
 .header-search {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: max-content 1fr;
     align-items: center;
     gap: 16px;
 }
