@@ -103,7 +103,7 @@ button {
     padding: 8px 16px;
     border-radius: 20px;
     border: none;
-    font-weight: bold;
+    font-weight: 700;
     background-color: var(--btn-bg);
     color: var(--btn-text);
 }
@@ -174,7 +174,7 @@ input[type="search"]:focus {
 .header-welcome-text {
     display: grid;
     gap: 4px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .header-profile {
@@ -200,7 +200,7 @@ input[type="search"]:focus {
     padding: 24px;
     background-color: var(--sidebar-bg);
     color: var(--sidebar-item);
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .sidebar-item-group {
