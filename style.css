@@ -270,9 +270,6 @@ input[type="search"]:focus {
 
 .announcements {
     grid-area: announcements;
-    display: grid;
-    grid-template-rows: min-content 1fr;
-    gap: 16px;
 }
 
 .announcements-wrapper {
@@ -296,9 +293,6 @@ input[type="search"]:focus {
 
 .trending {
     grid-area: trending;
-    display: grid;
-    grid-template-rows: min-content 1fr;
-    gap: 16px;
 }
 
 .trending-container {
