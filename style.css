@@ -136,6 +136,12 @@ input[type="search"]:focus {
     color: inherit;
 }
 
+.content-header {
+    padding: 16px 0;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
 .layout-wrapper {
     min-width: 100%;
     min-height: 100vh;
