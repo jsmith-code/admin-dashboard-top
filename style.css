@@ -76,8 +76,6 @@ img {
     --search-bg: var(--light-lavender);
     --search-outline: var(--black-grey);
 
-    --header-welcome-text: var(--black-grey);
-
     --btn-bg: var(--blue);
     --btn-bg-hover: var(--blue-alt);
     --btn-text: var(--white);
@@ -177,7 +175,6 @@ input[type="search"]:focus {
     display: grid;
     gap: 4px;
     font-weight: bold;
-    color: var(--header-welcome-text);
 }
 
 .header-profile {
