@@ -225,7 +225,7 @@ input[type="search"]:focus {
     grid-area: content;
     display: grid;
     grid-template-columns: 1fr 250px;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr;
     grid-template-areas: 
         'cards announcements'
         'cards trending';
