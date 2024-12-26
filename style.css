@@ -275,7 +275,7 @@ input[type="search"]:focus {
 .announcements-wrapper {
     display: grid;
     padding: 32px;
-    gap: 16px;
+    gap: 8px;
     background-color: var(--announcements-bg);
     color: var(--announcements-text);
     border-radius: 8px;
