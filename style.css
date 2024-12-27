@@ -273,7 +273,7 @@ hr {
     justify-self: end;
     display: grid;
     grid-auto-flow: column;
-    gap: 12px;
+    gap: 16px;
 }
 
 .announcements {
@@ -283,7 +283,7 @@ hr {
 .announcement-list {
     display: grid;
     padding: 32px;
-    gap: 8px;
+    gap: 4px;
     background-color: var(--announcements-bg);
     color: var(--announcements-text);
     border-radius: 8px;
