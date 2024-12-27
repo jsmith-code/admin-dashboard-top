@@ -53,6 +53,12 @@ img {
     height: auto;
 }
 
+hr {
+    border: none;
+    border-bottom: 1px solid var(--hr-bg);
+    width: 100%;
+}
+
 :root {
     /* Palette Declaration */
     --black-grey: hsl(0, 0%, 10%);
@@ -70,6 +76,8 @@ img {
     /* Functional Declarations */
     --sidebar-bg: var(--blue);
     --sidebar-item: var(--white);
+
+    --hr-bg: var(--light-grey);
 
     --header-bg: var(--white);
     --header-text: var(--black-grey);
@@ -91,7 +99,6 @@ img {
     --announcements-bg: var(--white);
     --announcements-text:var(--black-grey);
     --announcements-subtext: var(--dark-grey);
-    --announcements-hr: var(--light-grey);
 
     --trending-bg: var(--white);
     --trending-text:var(--black-grey);
@@ -284,12 +291,6 @@ input[type="search"]:focus {
 
 .announcements p {
     color: var(--announcements-subtext);
-}
-
-.announcements hr {
-    border: none;
-    border-bottom: 1px solid var(--announcements-hr);
-    width: 100%;
 }
 
 .trending {
