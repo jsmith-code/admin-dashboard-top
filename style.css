@@ -294,7 +294,7 @@ input[type="search"]:focus {
     gap: 4px;
 }
 
-.announcements p {
+.announcement p {
     color: var(--announcements-subtext);
 }
 
