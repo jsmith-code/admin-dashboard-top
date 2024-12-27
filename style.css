@@ -289,6 +289,11 @@ input[type="search"]:focus {
     border-radius: 8px;
 }
 
+.announcement {
+    display: grid;
+    gap: 4px;
+}
+
 .announcements p {
     color: var(--announcements-subtext);
 }
