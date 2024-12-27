@@ -53,12 +53,6 @@ img {
     height: auto;
 }
 
-hr {
-    border: none;
-    border-bottom: 1px solid var(--hr-bg);
-    width: 100%;
-}
-
 :root {
     /* Palette Declaration */
     --black-grey: hsl(0, 0%, 10%);
@@ -130,6 +124,12 @@ input[type="search"] {
 
 input[type="search"]:focus {
     outline: 1px solid var(--search-outline);
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid var(--hr-bg);
+    width: 100%;
 }
 
 /* Icon Sizes */
