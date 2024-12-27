@@ -68,20 +68,22 @@ img {
     --light-blue: hsl(201, 91%, 73%);
 
     /* Functional Declarations */
-    --sidebar-bg: var(--blue);
-    --sidebar-item: var(--white);
-
+    /* General */
     --hr-bg: var(--light-grey);
-
-    --header-bg: var(--white);
-    --header-text: var(--black-grey);
-
-    --search-bg: var(--light-lavender);
-    --search-outline: var(--black-grey);
 
     --btn-bg: var(--blue);
     --btn-bg-hover: var(--blue-alt);
     --btn-text: var(--white);
+    
+    /* Specific */
+    --sidebar-bg: var(--blue);
+    --sidebar-item: var(--white);
+
+    --header-bg: var(--white);
+    --header-text: var(--black-grey);
+    
+    --search-bg: var(--light-lavender);
+    --search-outline: var(--black-grey);
 
     --content-bg: var(--light-lavender);
     
