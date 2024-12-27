@@ -302,7 +302,7 @@ input[type="search"]:focus {
     grid-area: trending;
 }
 
-.trending-container {
+.trending-list {
     display: grid;
     background-color: var(--trending-bg);
     border-radius: 8px;
