@@ -75,6 +75,11 @@ img {
     --btn-bg-hover: var(--blue-alt);
     --btn-text: var(--white);
     
+    --gap-sm: 4px;
+    --gap-md: 16px;
+    --gap-lg: 24px;
+    --gap-xl: 48px;
+
     /* Specific */
     --sidebar-bg: var(--blue);
     --sidebar-item: var(--white);
@@ -168,7 +173,7 @@ hr {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 16px;
+    gap: var(--gap-md);
     padding: 16px 48px;
     background-color: var(--header-bg);
     color: var(--header-text);
@@ -178,18 +183,18 @@ hr {
     display: grid;
     grid-template-columns: max-content 1fr;
     align-items: center;
-    gap: 16px;
+    gap: var(--gap-md);
 }
 
 .header-welcome {
     display: flex;
-    gap: 16px;
+    gap: var(--gap-md);
     align-items: center;
 }
 
 .header-welcome-text {
     display: grid;
-    gap: 4px;
+    gap: var(--gap-sm);
     font-weight: 700;
 }
 
@@ -197,7 +202,7 @@ hr {
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 16px;
+    gap: var(--gap-md);
     font-weight: 700;
 }
 
@@ -205,14 +210,14 @@ hr {
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 24px;
+    gap: var(--gap-lg);
 }
 
 .sidebar {
     grid-area: sidebar;
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: var(--gap-xl);
     padding: 24px;
     background-color: var(--sidebar-bg);
     color: var(--sidebar-item);
@@ -222,13 +227,13 @@ hr {
 .sidebar-item-group {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: var(--gap-md);
 }
 
 .sidebar-item {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: var(--gap-md);
 }
 
 .content {
@@ -239,7 +244,7 @@ hr {
     grid-template-areas: 
         'cards announcements'
         'cards trending';
-    gap: 16px;
+    gap: var(--gap-md);
     padding: 16px;
     background-color: var(--content-bg);
 }
@@ -250,7 +255,7 @@ hr {
 
 .cards-container {
     display: grid;
-    gap: 16px;
+    gap: var(--gap-md);
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-template-rows: min-content;
     grid-auto-rows: min-content;
@@ -260,7 +265,7 @@ hr {
     padding: 16px;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    gap: 16px;
+    gap: var(--gap-md);
     border-left: 8px solid var(--card-border);
     border-radius: 8px;
     background-color: var(--card-bg);
@@ -275,7 +280,7 @@ hr {
     justify-self: end;
     display: grid;
     grid-auto-flow: column;
-    gap: 16px;
+    gap: var(--gap-md);
 }
 
 .announcements {
@@ -285,7 +290,7 @@ hr {
 .announcement-list {
     display: grid;
     padding: 32px;
-    gap: 4px;
+    gap: var(--gap-sm);
     background-color: var(--announcements-bg);
     color: var(--announcements-text);
     border-radius: 8px;
@@ -293,7 +298,7 @@ hr {
 
 .announcement-item {
     display: grid;
-    gap: 4px;
+    gap: var(--gap-sm);
 }
 
 .announcement-item p {
@@ -309,7 +314,7 @@ hr {
     background-color: var(--trending-bg);
     border-radius: 8px;
     padding: 16px;
-    gap: 16px;
+    gap: var(--gap-md);
     color: var(--trending-text);
 }
 
@@ -317,7 +322,7 @@ hr {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    gap: 16px;
+    gap: var(--gap-md);
 }
 
 .trending-item p {
