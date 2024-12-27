@@ -121,6 +121,7 @@ button {
     font-weight: 700;
     background-color: var(--btn-bg);
     color: var(--btn-text);
+    transition: background-color 150ms;
 }
 
 button:hover {
