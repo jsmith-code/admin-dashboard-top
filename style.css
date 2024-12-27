@@ -280,7 +280,7 @@ input[type="search"]:focus {
     grid-area: announcements;
 }
 
-.announcements-wrapper {
+.announcement-list {
     display: grid;
     padding: 32px;
     gap: 8px;
@@ -289,12 +289,12 @@ input[type="search"]:focus {
     border-radius: 8px;
 }
 
-.announcement {
+.announcement-item {
     display: grid;
     gap: 4px;
 }
 
-.announcement p {
+.announcement-item p {
     color: var(--announcements-subtext);
 }
 
