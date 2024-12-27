@@ -219,6 +219,10 @@ hr {
     gap: var(--gap-lg);
 }
 
+.header-buttons button {
+    width: 80px;
+}
+
 .sidebar {
     grid-area: sidebar;
     display: flex;
