@@ -66,6 +66,7 @@ img {
     --blue-alt: hsl(234, 48%, 63%);
 
     --light-blue: hsl(234, 88%, 77%);
+    --light-blue-alt: hsl(234, 88%, 82%);
 
     /* Functional Declarations */
     /* General */
@@ -89,6 +90,9 @@ img {
     /* Specific */
     --sidebar-bg: var(--blue);
     --sidebar-item: var(--white);
+
+    --credit-link: var(--light-blue);
+    --credit-link-hover: var(--light-blue-alt);
 
     --header-bg: var(--white);
     --header-text: var(--black-grey);
@@ -246,6 +250,24 @@ hr {
     display: flex;
     align-items: center;
     gap: var(--gap-md);
+}
+
+.credit {
+    margin-top: auto;
+    display: grid;
+    gap: var(--gap-sm);
+    justify-items: center;
+    font-weight: normal;
+}
+
+.credit-link {
+    text-decoration: none;
+    color: var(--credit-link);
+}
+
+.credit-link:hover {
+    color: var(--credit-link-hover);
+    text-decoration: underline;
 }
 
 .content {
