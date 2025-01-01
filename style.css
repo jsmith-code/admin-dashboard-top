@@ -165,7 +165,7 @@ hr {
 .content-header {
     padding: var(--padding-md) 0;
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .layout-wrapper {
