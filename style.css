@@ -309,6 +309,7 @@ hr {
 
 .card p {
     color: var(--card-subtext);
+    font-size: 0.9rem;
 }
 
 .card-header {
