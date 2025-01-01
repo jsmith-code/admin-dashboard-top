@@ -342,6 +342,10 @@ hr {
     gap: var(--gap-sm);
 }
 
+.announcement-item-header {
+    font-size: 0.9rem;
+}
+
 .announcement-item p {
     color: var(--announcements-subtext);
 }
