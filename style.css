@@ -348,6 +348,7 @@ hr {
 
 .announcement-item p {
     color: var(--announcements-subtext);
+    font-size: 0.9rem;
 }
 
 .trending {
