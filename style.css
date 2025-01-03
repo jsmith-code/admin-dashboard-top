@@ -299,7 +299,7 @@ hr {
     padding: var(--padding-md);
     display: grid;
     grid-template-rows: auto 1fr auto;
-    gap: var(--gap-md);
+    gap: var(--gap-sm);
     border-left: 8px solid var(--card-border);
     border-radius: 8px;
     background-color: var(--card-bg);
