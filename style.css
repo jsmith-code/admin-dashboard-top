@@ -108,6 +108,7 @@ img {
     --card-subtext: var(--dark-grey);
 
     --announcements-bg: var(--white);
+    --announcements-border: var(--light-grey);
     --announcements-text:var(--black-grey);
     --announcements-subtext: var(--dark-grey);
 
@@ -344,6 +345,8 @@ hr {
 }
 
 .announcement-item {
+    border-left: 2px solid var(--announcements-border);
+    padding-left: var(--padding-sm);
     display: grid;
     gap: var(--gap-sm);
 }
