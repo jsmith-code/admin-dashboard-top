@@ -218,6 +218,12 @@ hr {
     font-weight: 700;
 }
 
+.header-profile-user {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-md);
+}
+
 .header-buttons {
     display: flex;
     justify-content: end;
