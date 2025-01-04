@@ -336,7 +336,7 @@ hr {
 .announcement-list {
     display: grid;
     padding: var(--padding-xl);
-    gap: var(--gap-sm);
+    gap: var(--gap-md);
     background-color: var(--announcements-bg);
     color: var(--announcements-text);
     border-radius: 8px;
