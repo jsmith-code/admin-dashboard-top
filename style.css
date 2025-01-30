@@ -57,23 +57,23 @@ img {
     /* Palette Declaration */
     --black-grey: hsl(0, 0%, 10%);
     --dark-grey: hsl(0, 0%, 35%);
-    --light-grey: hsl(0, 0%, 80%);
+    --light-grey: hsl(0, 0%, 85%);
+    --light-grey-alt: hsl(0, 0%, 95%);
     --white: hsl(0, 0%, 100%);
 
-    --light-lavender: hsl(272, 29%, 90%);
+    --green: hsl(169, 86%, 17%);
 
-    --blue: hsl(234, 48%, 58%);
-    --blue-alt: hsl(234, 48%, 63%);
+    --med-green: hsl(165, 86%, 25%);
+    --med-green-alt: hsl(160, 86%, 28%);
 
-    --light-blue: hsl(234, 88%, 77%);
-    --light-blue-alt: hsl(234, 88%, 82%);
+    --light-green: hsl(132, 33%, 58%);
 
     /* Functional Declarations */
     /* General */
     --hr-bg: var(--light-grey);
 
-    --btn-bg: var(--blue);
-    --btn-bg-hover: var(--blue-alt);
+    --btn-bg: var(--med-green);
+    --btn-bg-hover: var(--med-green-alt);
     --btn-text: var(--white);
     
     --gap-sm: 4px;
@@ -88,22 +88,22 @@ img {
     --padding-xxl: 48px;
 
     /* Specific */
-    --sidebar-bg: var(--blue);
-    --sidebar-item: var(--white);
+    --sidebar-bg: var(--green);
+    --sidebar-item: var(--light-green);
 
-    --credit-link: var(--light-blue);
-    --credit-link-hover: var(--light-blue-alt);
+    --credit-link: var(--med-green);
+    --credit-link-hover: var(--med-green-alt);
 
     --header-bg: var(--white);
     --header-text: var(--black-grey);
     
-    --search-bg: var(--light-lavender);
+    --search-bg: var(--light-grey);
     --search-outline: var(--black-grey);
 
-    --content-bg: var(--light-lavender);
+    --content-bg: var(--light-grey-alt);
     
     --card-bg: var(--white);
-    --card-border: var(--blue);
+    --card-border: var(--light-green);
     --card-text:var(--black-grey);
     --card-subtext: var(--dark-grey);
 
