@@ -298,8 +298,7 @@ hr {
     display: grid;
     gap: var(--gap-md);
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-template-rows: min-content;
-    grid-auto-rows: min-content;
+    grid-auto-rows: 1fr;
 }
 
 .card {
