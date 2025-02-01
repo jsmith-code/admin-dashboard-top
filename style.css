@@ -328,6 +328,7 @@ hr {
     display: grid;
     grid-auto-flow: column;
     gap: var(--gap-md);
+    padding-top: var(--gap-md);
 }
 
 .announcements {
